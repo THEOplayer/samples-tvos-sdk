@@ -4,13 +4,6 @@ iOS application can be executed on simulator or on a tvOS Apple TV device. This 
 
 Note that while simulator is great for development and quick testing, it is not the same as executing on actual tvOS devices. See [Differences between simulated and physical devices] from Apple document for more detail.
 
-## Table of Contents
-
-* [Simulator]
-  * [Simulator for older iOS]
-* [iOS Device]
-  * [Sideloading]
-
 ## Simulator
 
 Click on the scheme list in the XCode IDE as follow:

@@ -11,12 +11,11 @@ The guides below will provide in depth details on how to create an tvOS applicat
 * [THEO Knowledge Base - Xcode Setup]
 * [THEO Knowledge Base - Simple Application]
 * [THEO Knowledge Base - Simulator And tvOS Device]
-* [THEOplayer How To's - Setup Reference Application]
 * [THEOplayer How To's - THEOplayer tvOS SDK Integration]
 
 ## Quick Start
 
-* Obtain THEOplayer tvOS SDK. If you don't have a SDK yet, please visit [Get Started with THEOplayer].
+* Obtain THEOplayer tvOS SDK. If you don't have a SDK yet, please visit [Get Started with THEOplayer](https://portal.theoplayer.com/register).
 * Extract the downloaded **`tvOSSDK-[version]-[name].zip`**. For example:
 
       unzip tvOSSDK-[version]-[name].zip
@@ -40,8 +39,8 @@ This project is licensed under the BSD 3 Clause License - see the [LICENSE] file
 [//]: # (Links and Guides reference)
 [THEO Knowledge Base - Xcode Setup]: Guides/knowledgebase-xcode-setup/README.md
 [THEO Knowledge Base - Simple Application]: Guides/knowledgebase-simple-application/README.md
-[THEO Knowledge Base - Simulator And tvOS Device]: Guides/knowledgebase-simulator-and-ios-device/README.md
-[THEOplayer How To's - THEOplayer tvOS SDK Integration]: Guides/howto-theoplayer-ios-sdk-integration/README.md
+[THEO Knowledge Base - Simulator And tvOS Device]: Guides/knowledgebase-simulator-and-tvos-device/README.md
+[THEOplayer How To's - THEOplayer tvOS SDK Integration]: Guides/howto-theoplayer-tvos-sdk-integration/README.md
 [THEOplayer]: https://www.theoplayer.com
 [Get Started with THEOplayer]: https://www.theoplayer.com/licensing
 [EZ DRM]: https://www.ezdrm.com/

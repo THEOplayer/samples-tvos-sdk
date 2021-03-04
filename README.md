@@ -1,4 +1,4 @@
-# THEOplayer iOS Reference Apps
+# THEOplayer tvOS Reference Apps
 
 ## License
 
@@ -43,10 +43,10 @@ a set of different sample apps over a single sample app showing all
 different use cases.
 
 * [Basic Playback](Basic-Playback/README.md)
-* [DRM Playback](DRM-Playback/README.md)
-* [Google IMA](Google-IMA/README.md)
-* [Custom UI](Custom-UI/README.md)
-* [Simple OTT](Simple-OTT/README.md)
+* [DRM Playback](#)
+* [Google IMA](#)
+* [Custom UI](#)
+* [Simple OTT](#)
 
 
 ## Streams/Content Rights:
