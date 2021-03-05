@@ -43,7 +43,7 @@ a set of different sample apps over a single sample app showing all
 different use cases.
 
 * [Basic Playback](Basic-Playback/README.md)
-* [DRM Playback](#)
+* [DRM Playback](DRM-Playback/README.md)
 * [Google IMA](#)
 * [Custom UI](#)
 * [Simple OTT](#)

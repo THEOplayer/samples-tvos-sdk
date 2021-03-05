@@ -21,7 +21,7 @@ This app is an extension of [THEO Basic Playback] application. Please checkout t
 * Obtain THEOplayer iOS SDK. If you don't have a SDK yet, please visit [Get Started with THEOplayer].
 * Extract the downloaded **`tvOSSDK-[version]-[name].zip`**. For example:
 
-      unzip iOSSDK-[version]-[name].zip
+      unzip tvOSSDK-[version]-[name].zip
 
 * Copy & paste the **`THEOplayerSDK.framework`** folder to the root of the reference app project. For example:
 
@@ -29,7 +29,7 @@ This app is an extension of [THEO Basic Playback] application. Please checkout t
 
 * Open the reference app project `DRM-Playback.xcodeproj` with Xcode.
 * Select `Product > Run` from Xcode menu bar or press `⌘ + R` on the keyboard to build and run the application.
-  * Should there be any problems with launching the application, please check the [THEO Knowledge Base - Simulator And iOS Device] guide for more information.
+  * Should there be any problems with launching the application, please check the [THEO Knowledge Base - Simulator And tvOS Device] guide for more information.
 
 ## Streams/Content Rights
 

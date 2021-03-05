@@ -91,7 +91,7 @@ For more guides about THEOplayer please visit [THEO Docs] portal.
 [Summary]: #Summary
 
 [//]: # (Links and Guides reference)
-[THEO Basic Playback]: ../Basic-Playback
+[THEO Basic Playback]: https://github.com/THEOplayer/samples-tvos-sdk/tree/master/Basic-Playback
 [FairPlay Streaming]: https://developer.apple.com/streaming/fps/
 [EZ DRM]: https://www.ezdrm.com/
 [THEO Docs]: https://docs.portal.theoplayer.com/
