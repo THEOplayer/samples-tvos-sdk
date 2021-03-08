@@ -44,7 +44,7 @@ different use cases.
 
 * [Basic Playback](Basic-Playback/README.md)
 * [DRM Playback](DRM-Playback/README.md)
-* [Google IMA](#)
+* [Google IMA](Google-IMA/README.md)
 * [Custom UI](#)
 * [Simple OTT](#)
 

@@ -134,4 +134,4 @@ For more guides about THEOplayer please visit [THEO Docs] portal.
 [THEO Docs]: https://docs.portal.theoplayer.com/
 
 [//]: # (Project files reference)
-[ViewController.swift]: ../../Google_IMA/ViewController.swift
+[ViewController.swift]: ../../Google-IMA/ViewController.swift
