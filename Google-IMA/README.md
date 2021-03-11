@@ -26,7 +26,9 @@ This app is an extension of [THEO Basic Playback] application. Please checkout t
 
       cp -a THEOplayerSDK.framework/ Google-IMA/
 
-* Copy & paste the **`GoogleInteractiveMediaAds.framework`** folder to the root of the reference app project. For example:
+* Download the Google IMA tvOS SDK from https://developers.google.com/interactive-media-ads/docs/sdks/tvos/client-side/download.
+Copy & paste the downloaded **`GoogleInteractiveMediaAds.framework`** folder to the root of the reference app project.
+For example:
 
       cp -a GoogleInteractiveMediaAds.framework/ Google-IMA/
 
