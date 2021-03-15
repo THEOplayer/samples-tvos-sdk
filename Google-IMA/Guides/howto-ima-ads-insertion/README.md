@@ -6,21 +6,22 @@ The complete implementation can be found in [ViewController.swift] with inline c
 
 ## Table of Contents
 
+* [Including the Google IMA SDK](#including-the-google-ima-sdk)
 * [Enabling Google IMA]
 * [Google IMA Ad Description]
 * [Creating SourceDescription With Ads]
 * [Ads Event Listeners]
 * [Summary]
 
-## Include the Google IMA SDK
+## Including the Google IMA SDK
 
-You must include the Google IMA tvOS SDK in your project as this is a mandatory dependency.
+You must embed the Google IMA iOS SDK in your project. You can do this through the pre-configured Cocoapods in this workspace.
 
-* Download the Google IMA tvOS SDK from [https://developers.google.com/interactive-media-ads/docs/sdks/tvos/client-side/download](https://developers.google.com/interactive-media-ads/docs/sdks/tvos/client-side/download).
-* Add the downloaded framework to your `Google-IMA` folder.
-* Ensure that the framework is included in the `General` tab of Xcode, under `Frameworks, Libraries, and Embedded Content`.
+* Install the `Podfile` by running `pod install --repo-update` in the root `Google-IMA` folder which contains the `Podfile` file.
+  Running this command installs the Google IMA iOS SDK which is a mandatory dependency.
+* Open the reference app project `Google_IMA.xworkspace` with Xcode.
 
-Alternatively, you can use Cocoapods to include the Google IMA tvOS SDK, as described at [https://developers.google.com/interactive-media-ads/docs/sdks/tvos/client-side#2_add_the_ima_sdk_to_the_xcode_project](https://developers.google.com/interactive-media-ads/docs/sdks/tvos/client-side#2_add_the_ima_sdk_to_the_xcode_project).
+Alternatively, you can also manually download and install the Google IMA iOS SDK, as described at [https://developers.google.com/interactive-media-ads/docs/sdks/tvos/client-side#manually_downloading_and_installing_the_sdk](https://developers.google.com/interactive-media-ads/docs/sdks/tvos/client-side#manually_downloading_and_installing_the_sdk).
 
 ## Enabling Google IMA
 
@@ -72,7 +73,7 @@ class PlayerViewController: UIViewController {
 
         // VAST/VMAP - Pre, mid or post-roll
         let imaTag = "https://pubads.g.doubleclick.net/xxxx"
-        
+
         // Returns a computed SourceDescription object with ads descriptor
         return SourceDescription(source: typedSource, ads: [GoogleImaAdDescription(src: imaTag)], poster: posterUrl)
     }

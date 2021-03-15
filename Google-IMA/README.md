@@ -26,13 +26,9 @@ This app is an extension of [THEO Basic Playback] application. Please checkout t
 
       cp -a THEOplayerSDK.framework/ Google-IMA/
 
-* Download the Google IMA tvOS SDK from https://developers.google.com/interactive-media-ads/docs/sdks/tvos/client-side/download.
-Copy & paste the downloaded **`GoogleInteractiveMediaAds.framework`** folder to the root of the reference app project.
-For example:
+* Install the `Podfile` by running `pod install --repo-update` in the root Google-IMA folder which contains the `Podfile` file. Running this command installs the Google IMA iOS SDK which is a mandatory dependency.
 
-      cp -a GoogleInteractiveMediaAds.framework/ Google-IMA/
-
-* Open the reference app project `Google_IMA.xcodeproj` with Xcode.
+* Open the reference app project `Google_IMA.workspace` with Xcode.
 * Select `Product > Run` from Xcode menu bar or press `⌘ + R` on the keyboard to build and run the application.
   * Should there be any problems with launching the application, please check the [THEO Knowledge Base - Simulator And tvOS Device] guide for more information.
 
