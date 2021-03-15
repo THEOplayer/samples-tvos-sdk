@@ -12,6 +12,16 @@ The complete implementation can be found in [ViewController.swift] with inline c
 * [Ads Event Listeners]
 * [Summary]
 
+## Include the Google IMA SDK
+
+You must include the Google IMA tvOS SDK in your project as this is a mandatory dependency.
+
+* Download the Google IMA tvOS SDK from [https://developers.google.com/interactive-media-ads/docs/sdks/tvos/client-side/download](https://developers.google.com/interactive-media-ads/docs/sdks/tvos/client-side/download).
+* Add the downloaded framework to your `Google-IMA` folder.
+* Ensure that the framework is included in the `General` tab of Xcode, under `Frameworks, Libraries, and Embedded Content`.
+
+Alternatively, you can use Cocoapods to include the Google IMA tvOS SDK, as described at [https://developers.google.com/interactive-media-ads/docs/sdks/tvos/client-side#2_add_the_ima_sdk_to_the_xcode_project](https://developers.google.com/interactive-media-ads/docs/sdks/tvos/client-side#2_add_the_ima_sdk_to_the_xcode_project).
+
 ## Enabling Google IMA
 
 The code snippet shows how to enable native Google IMA during THEOplayer initialisation.
