@@ -14,7 +14,7 @@ For quick start, please proceed with the [Quick Start](https://docs.theoplayer.c
       &emsp;
    Please keep in mind [the included features](https://github.com/THEOplayer/theoplayer-sdk-ios#included-features) on the Cocoapods releases. If you want to use any features other than these, you need to create a custom THEOplayer tvOS SDK framework from THEOportal with the features you wish and embed the framework in your project instead of using Cocoapods.
       &emsp;
-2. On player's configuration, replace the placeholder `your_license_here` with your license for tvOS SDK. You can create a license from THEOportal. 
+2. On player's configuration, replace the placeholder `your_license_here` with your license for tvOS SDK.
       ```swift
     init(){
         self.playerConfig = THEOplayerConfiguration(license: "your_license_here", pip: PiPConfiguration())
@@ -22,22 +22,13 @@ For quick start, please proceed with the [Quick Start](https://docs.theoplayer.c
     }
     ```
 
-      If you don't have a SDK yet, please visit [THEOportal Getting Started](https://portal.theoplayer.com/getting-started) page.
+      If you don't have a license yet, please visit [THEOportal Getting Started](https://portal.theoplayer.com/getting-started) page.
       &emsp;
-3. Open the reference app and build it.
+3. Open the project `.xcworkspace`, select a Development Team for signing and build it.
 
 ## License
 
 This project is licensed under the BSD 3 Clause License - see the [LICENSE] file for details.
-
-[//]: # (Links and Guides reference)
-[THEO Knowledge Base - Xcode Setup]: Guides/knowledgebase-xcode-setup/README.md
-[THEO Knowledge Base - Simple Application]: Guides/knowledgebase-simple-application/README.md
-[THEO Knowledge Base - Simulator And tvOS Device]: Guides/knowledgebase-simulator-and-tvos-device/README.md
-[THEOplayer How To's - THEOplayer tvOS SDK Integration]: Guides/howto-theoplayer-tvos-sdk-integration/README.md
-[THEOplayer]: https://www.theoplayer.com
-[Get Started with THEOplayer]: https://www.theoplayer.com/licensing
-[EZ DRM]: https://www.ezdrm.com/
 
 [//]: # (Project files reference)
 [LICENSE]: LICENSE
