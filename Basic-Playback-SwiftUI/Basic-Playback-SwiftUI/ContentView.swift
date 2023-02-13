@@ -27,6 +27,8 @@ struct THEOplayerWrapper: UIViewRepresentable {
         let screenWidth = screenRect.size.width + screenRect.origin.x
         let screenHeight = screenRect.size.height + screenRect.origin.y
         player.frame = CGRect(x: 0, y: 0, width: screenWidth-175, height: screenHeight-100)
+
+        player.autoplay = true
         player.source = SourceDescription(source: TypedSource(src: source, type: mimeType))
     }
 
