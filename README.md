@@ -47,6 +47,7 @@ different use cases.
 * [Google IMA](Google-IMA/README.md)
 * [Custom UI](#)
 * [Simple OTT](#)
+* [Basic-Playback-SwiftUI](Basic-Playback-SwiftUI/README.md)
 
 
 ## Streams/Content Rights:
