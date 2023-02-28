@@ -10,7 +10,6 @@ For quick start, please proceed with the [Quick Start](https://docs.theoplayer.c
 
        pod install --repo-update
 
-   Note that versions earlier than 2.82.0 (release 2021.1.2) are not available on the public Cocoapods registry. Earlier versions are available through  [THEOportal](https://portal.theoplayer.com/getting-started).
       &emsp;
    Please keep in mind [the included features](https://github.com/THEOplayer/theoplayer-sdk-ios#included-features) on the Cocoapods releases. If you want to use any features other than these, you need to create a custom THEOplayer tvOS SDK framework from THEOportal with the features you wish and embed the framework in your project instead of using Cocoapods.
       &emsp;
